@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Copos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calculator.js"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-sm-8 text-center">
+                <div class="calculadora text-center">
+                    <h1 class="h1">Calcular a quantidade de copos de uma estufa.</h1>
+                    <form action="" class="form-group">
+                        <label for="comprimento"> <p class="p">Digite aqui o comprimento da estufa.</p> </label>
+                        <br>
+                        <input type="number" name="" id="comprimento" placeholder="COMPRIMENTO EM METROS" class="form-control">
+                        <br>
+                        <label for="comprimento"> Digite aqui o espaçamento dos copos.</label>
+                        <br>
+                        <input type="number" name="" id="espacamento" placeholder="ESPAÇAMENTO EM CM" class="form-control">
+                        <br>
+                        <label for="comprimento">Digite aqui a quantidade de linhas.</label>
+                        <br>
+                        <input type="number" name="" id="linhas" placeholder="LINHAS" class="form-control">
+                    </form>
+                    <button type="button" class="btn btn-primary" id="calcular" onclick="calcularcopos();">Calcular</button>
+                    <br>
+                    <label for="" id="resultado" style="font-size: 30px;"></label>
+                </div>
+            </div>
+            <div class="col-2"></div>
+    </div>
+</div>
+</body>
+</html>
